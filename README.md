@@ -95,7 +95,29 @@ It exports:
     - a fasta and pdf file for every combination of animal, timepoint, and chain.
 
 ### TCR_Randomization_Statistics.R
+
+This script creates randomized lists based on the data, to run statistics on. It can be used to compare to the output of TCR_Diversity.R. Manual edits need to be made to run for each animal. It is setup to run for one animal at a time.
+
+It imports:
+
+    - CSV MiXCR Data file formated by TCR_Data_Preparation_MiXCR.R
+
+It exports: 
+
+    - a CSV containing diversity statistics for a particular animal.
+
 ### TCR_Upset_Plot.R
+
+This scripts creates 3 upset plots (for all animals): TCRD, TCRG, TCRD-TCRG.
+
+It imports:
+
+    - CSV MiXCR Data file formated by TCR_Data_Preparation_MiXCR.R
+
+It exports: 
+
+    - 3 Upset Plots: TCRD, TCRG, TCRD-TCRG.
+
 ### TCRG_CDR3_Shared_Clonotypes.R
 
 This script identifies clonoltypes  shared between animals and timepoints for TCRG.

@@ -1,6 +1,6 @@
 ## TCR_Diversity.R
 # This script inputs the data formatted by "TCR_Data_Preperation.R"
-# It runs the diversity analyses on the formatted data and then the downsampled data.
+# It runs the diversity analyses on the formatted data.
 # These are run on TCRD, TCRG, then combined chains.
 # It exports all data into CSVs.
 # It then counts J-chain usages for individual animals and timepoints and exports to CSV.
