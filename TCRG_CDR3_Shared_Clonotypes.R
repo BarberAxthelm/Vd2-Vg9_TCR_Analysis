@@ -8,7 +8,7 @@
 # Removes ALL objects from the global environment
 rm(list = ls())
 
-# Installs and loads all relevant packages
+# Installs and loads Packages
 install.packages("tidyverse")
 install.packages("data.table")
 library(tidyverse)

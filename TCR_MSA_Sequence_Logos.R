@@ -1,4 +1,4 @@
-## TCR_MSA_Sequence_Logos_Pipeline.R
+## TCR_MSA_Sequence_Logos.R
 # This script imports the formatted data (output of TCR_Data_Preparation_MiXCR.R)
 # and filters by animal/timepoint to perform a multiple sequence alignment (msa)
 # and a sequence logo generation (aa and nt) for both the gamma and delta chains.  
@@ -16,7 +16,7 @@ if (!requireNamespace("BiocManager", quietly=TRUE))
 BiocManager::install("msa")
 
 
-# Installs and Loads relevant packages.
+# Installs and Loads Packages.
 install.packages("tinytex")
 tinytex::install_tinytex()
 # To uninstall TinyTeX, run:

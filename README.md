@@ -11,7 +11,11 @@
 
 The brief script descriptions are below. TCR_Data_Preparation_MiXCR.R script must be run before any other script, as it formats the table to be used with referenced column names.
 
-### TCR_Data_Preparation_MiXCR.R
+### TCR_Alluvial_Plot.R
+### TCR_CDR3_Spectratyping.R
+### TCR_Circos_Plots.R
+
+### TCR_Data_Preparation.R
 
 This script is used to prepare the data for use by the other analysis scripts. 
 
@@ -26,8 +30,8 @@ It exports two tables as CSV files:
                     related sample infomation and flow cytometery data.
     - Counts of functional paired sequences per sample.
 
-
-### TCR_MSA_Sequence_Logos_Pipeline.R
+### TCR_Diversity.R
+### TCR_MSA_Sequence_Logos.R
 
 This script is used to generate the multiple sequence alignment (msa) and sequence logo generations for each animal, timepoint, and chain (TCRD/TCRG), both as a nucleotide sequence and amino acid sequence.
 
@@ -39,7 +43,8 @@ It exports:
 
     - a fasta and pdf file for every combination of animal, timepoint, and chain.
 
-
+### TCR_Randomization_Statistics.R
+### TCR_Upset_Plot.R
 ### TCRG_CDR3_Shared_Clonotypes.R
 
 This script identifies clonoltypes  shared between animals and timepoints for TCRG.

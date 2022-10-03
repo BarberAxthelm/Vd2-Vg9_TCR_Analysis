@@ -1,4 +1,4 @@
-## TCR_Data_Preparation_MiXCR.R
+## TCR_Data_Preparation.R
 # This script is used to prepare the data for use by the other analysis scripts. 
 # It imports a CSV file containing data formatted appropriately post-MiXCR analysis,
 # as discussed in the readme, and a CSV containing the MiXCR list of functional clones.
